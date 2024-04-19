@@ -1,0 +1,94 @@
+/* standard elements */
+html {
+    background-color: whitesmoke;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-family: Didot, serif;
+    font-size: 100%
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Arial', 'sans-serif';
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+footer {
+    margin-top: 4rem;
+    border-top-width: 0.1rem;
+    border-top-color: slategrey;
+    border-top-style: solid;
+    font-size: 0.8rem;
+}
+
+cite {
+    margin-left: 1em;
+    font-style: italic;
+    font-size: 90%;
+}
+
+img {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem
+}
+
+section, p {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+nav {
+    background-color: lightsteelblue;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+  }
+
+nav ul li a:hover {
+    background-color: lightskyblue;
+}
+
+nav ul li a:visited{
+    margin-top: 4rem;
+    border-top-width: 0.1rem;
+    border-top-color: slategrey;
+    border-top-style: solid;
+    font-size: 0.8rem
+}
+
+.flex{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.center{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
